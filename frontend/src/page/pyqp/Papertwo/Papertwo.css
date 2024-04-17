@@ -1,0 +1,220 @@
+
+.question-papter-two-main{
+    position: fixed;
+    z-index: 1;
+     height: 850px;
+     width: 1790px;
+     background: -webkit-linear-gradient(45deg, #5c6ac4, #7b3cc1, #833ab4, #3685bf);
+     /* background-color: rgba(55, 21, 232, 0.899); */
+}
+.question-papter-two-main-child-one{
+    z-index: 1;
+    height: 730px;
+    width: 1580px;
+    background-color: #dae0e2;;
+    position: absolute;
+    left: 100px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.question-paper-two-section-parent{
+    display: flex;
+}
+.questio-paper-two-section-child-left{
+    height: 700px;
+    width: 600px;
+}
+.section-division-for-notes{
+    display: flex;
+    gap: 55px;
+}
+.question-paper-header{
+    margin-top: 20px;
+    position: relative;
+    left: 5%;
+}
+.question-paper-header-bar{
+    height: 20px;
+    width: 120px;
+    margin-top: 35px;
+    border: 3px solid blue;
+    border-radius: 10px;
+}
+.question-paper-semester-header{
+    position: relative;
+    top: 5%;
+    left: 8%;
+    z-index: 999;
+}
+/* header wirtern */
+/* select your sememester */
+.question-paper-select-semester{
+    height: 550px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.question-paper-select-semester h1{
+    font-weight: 700;
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+}
+.question-paper-select-semester-first-year{
+    display: flex;
+    gap: 50px;
+    position: relative;
+    left: 10%;
+
+}
+.question-paper-select-semester-first-year-odd{
+  height: 120px;
+  width: 120px;
+  background-color: #ffff;
+  border-radius: 15px;
+  display: grid;
+  place-items: center;
+}
+.question-paper-select-semester-first-year-even{
+    height: 120px;
+    width: 120px;
+    background-color: #ffff;
+    border-radius: 15px;
+    display: grid;
+    place-items: center;
+}
+.question-paper-select-semester-second-year{
+    display: flex;
+    gap: 50px;
+    position: relative;
+    left: 10%;
+    top: 2%;
+}
+.question-paper-select-semester-second-year-odd{
+    height: 120px;
+    width: 120px;
+    background-color: #ffff;
+    border-radius: 15px;
+    display: grid;
+    place-items: center;
+}
+.question-paper-select-semester-second-year-even{
+     height: 120px;
+    width: 120px;
+    background-color: #ffff;
+    border-radius: 15px;
+    display: grid;
+    place-items: center;
+}
+.question-paper-select-semester-third-year{
+    display: flex;
+    gap: 50px;
+    position: relative;
+    left: 10%;
+    top: 4%;
+    border-radius: 15px;
+}
+.question-paper-select-semester-third-year-odd{
+    height: 120px;
+    width: 120px;
+    background-color: #ffff;
+    border-radius: 15px;
+    display: grid;
+    place-items: center;
+}
+.question-paper-select-semester-third-year-even{
+    height: 120px;
+    width: 120px;
+    background-color: #ffff;
+    border-radius: 15px;
+    display: grid;
+    place-items: center;
+}
+.question-paper-select-semester-forth-year{
+    display: flex;
+    gap: 50px;
+    position: relative;
+    left: 10%;
+    margin-top: 40px;
+}
+.question-paper-select-semester-forth-year-odd{
+    height: 120px;
+    width: 120px;
+    background-color: #ffff;
+    border-radius: 15px;
+    display: grid;
+    place-items: center;
+}
+.question-paper-select-semester-forth-year-even{
+    height: 120px;
+    width: 120px;
+    background-color: #ffff;
+    border-radius: 15px;
+    display: grid;
+    place-items: center;
+}
+
+/* right side of the page */
+.questio-paper-two-section-child-right{
+    height: 600px;
+    width: 700px;
+    background-color: #fff;
+    margin-top: 70px;
+    position: relative;
+    left: 12%;
+    border-radius: 50px;
+}
+.questio-paper-two-section-child-right >img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+}
+
+/* copy form chatgpr */
+
+/* Media queries for responsiveness */
+
+@media (max-width: 1024px) {
+    /* Styles for screens less than 1024px wide */
+    .question-papter-two-main {
+      width: 90vw; /* Use viewport width for responsiveness */
+      height: auto; /* Allow height to adjust based on content */
+    }
+  
+    .question-papter-two-main-child-one {
+      width: 80vw;
+      left: 10vw;
+    }
+  
+    .question-paper-two-section-parent {
+      flex-direction: column; /* Stack elements vertically on small screens */
+    }
+  
+    .questio-paper-two-section-child-left,
+    .questio-paper-two-section-child-right {
+      width: 100%; /* Make sections take full width */
+      margin: 0 auto; /* Center elements horizontally */
+    }
+  
+    /* Adjust styles for other elements as needed */
+  }
+  
+  @media (max-width: 768px) {
+    /* Styles for screens less than 768px wide */
+    /* Further adjust styles for smaller screens here */
+    .question-paper-select-semester h1 {
+      font-size: 30px; /* Reduce heading size for better readability */
+    }
+  
+    .question-paper-select-semester-first-year,
+    .question-paper-select-semester-second-year,
+    .question-paper-select-semester-third-year,
+    .question-paper-select-semester-forth-year {
+      flex-direction: row-wrap; /* Wrap semester options on smaller screens */
+      justify-content: space-between; /* Distribute options evenly */
+    }
+  }
+  

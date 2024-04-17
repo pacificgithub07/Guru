@@ -1,0 +1,17 @@
+:root{
+    --white:#ffff;
+    --blur:#6196A6;
+}
+body{
+ background-color: var(--white);
+}
+.Notes-four-main{
+    position: fixed;
+    height: 700px;
+    width: 1620px;
+    background-color: #fff;
+    position:absolute;
+    left: 6%;
+    top: 13%;
+}
+

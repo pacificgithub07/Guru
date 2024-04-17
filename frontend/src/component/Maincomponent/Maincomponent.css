@@ -1,0 +1,26 @@
+/* :root{
+    --green:#4B2DEA;
+} */
+.main-component-main{
+    z-index: 1;
+
+}
+.main-comonent-side{
+ width: 1650px;
+ height: 100px;
+ background-color: #4B2DEA;
+ margin-left: 100px;
+}
+.main-comonent-top{
+  height: 800px;
+  width: 100px;
+  background-color: #4B2DEA;
+}
+.main-comonent-down{
+    width: 1650px;
+    height: 100px;
+    background-color: #4B2DEA;
+    margin-left: 100px;
+    position: absolute;
+    top: 95%;
+} 

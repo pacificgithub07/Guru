@@ -1,0 +1,147 @@
+:root{
+    /* --blue:rgba(70, 21, 232, 0.899); */
+    --white:#ffff;
+    --blur:rgba(158, 202, 227, 0.722);
+}
+body{
+   background-color: #ffff;
+   overflow: hidden;
+}
+a{
+    text-decoration: none
+}
+.notes-two-four-main{
+    position: fixed;
+    z-index: 1;
+    height: 850px;
+    width: 1790px;
+    background: -webkit-linear-gradient(45deg, #5c6ac4, #7b3cc1, #833ab4, #3685bf);
+    /* background-color: rgba(55, 21, 232, 0.899);  */
+}
+.notes-one-four-main-child-two{
+    z-index: 1;
+    height: 730px;
+    width: 1580px;
+    background-color: #dae0e2;
+    position: absolute;
+    left: 100px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.second-main{
+    overflow: hidden;
+}
+.second-main-part{
+    display: flex;
+}
+.second-main-part-left{
+    height: 1200px;
+    width: 900px;
+}
+.second-text{
+    position: relative;
+    top: 2%;
+    left: 8%;
+}
+.notesheader-semester{
+    position: relative;
+    top: 3%;
+    left: 5%;
+    z-index: 2;
+}
+.second-semester-detail{
+ /* overflow-y: scroll; */
+ height: 600px;
+ width: 500px;
+   position: relative;
+   top: 5%;
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  
+}
+/* .second-semester-detail::-webkit-scrollbar{
+    width: 15px;
+}
+.second-semester-detail::-webkit-scrollbar-track{
+    background: #d1e5;
+}
+.second-semester-detail::-webkit-slider-thumb{
+    background-color: red;
+
+} */
+.second-semester-detil-first-year{
+  height: 600px;   
+  display: flex;
+  gap: 70px;
+  position: relative;
+}
+.second-semester-detil-first-year h1{
+    font-weight: 700;
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+}
+.second-semester-detatil-first{
+    height: 120px;
+    width: 120px;
+    background-color: #ffff;
+    border-radius: 15px;
+    display: grid;
+    place-items: center;
+}
+.second-semester-detatil-first h1{
+    font-weight: 700;
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+}
+.second-semester-detatil-Second{
+    height: 120px;
+    width: 120px;
+    background-color: #ffff;
+    border-radius: 15px;
+    display: grid;
+    place-items: center;
+}
+.second-semester-detatil-Second h1{
+    font-weight: 700;
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+}
+.second-semester-detil-second-year{
+    display:flex;
+    gap: 70px;
+    position: relative;
+    top: -8%;
+}
+.second-semester-detil-third-year{
+    display: flex;
+    gap: 70px;
+    position: relative;
+    top: -6%;
+}
+.second-semester-detil-forth-year{
+    display: flex;
+    gap: 70px;
+    position: relative;
+    top: -4%;
+}
+/* this is for right seciton */
+.second-main-part-right{
+    position: relative;
+    left: 2%;
+    height: 600px;
+    width: 600px;
+    margin-top: 80px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.second-main-part-right >img{
+    height: 100%;
+    width: 100%;
+
+}
+

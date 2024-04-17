@@ -1,0 +1,102 @@
+:root{
+    --blue:rgba(70, 21, 232, 0.899);
+    --white:#ffff;
+    --blur:rgba(158, 202, 227, 0.722);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.na{
+    position: relative;
+    top: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+     overflow-x: hidden;
+}
+.notes-one-four-main{
+    position: fixed;
+    z-index: 1;
+    height: 850px;
+    width: 1790px;
+    /* background-color: rgba(55, 21, 232, 0.899);  */
+    background: -webkit-linear-gradient(45deg, #5c6ac4, #7b3cc1, #833ab4, #3685bf);
+}
+.notes-one-four-main-child-one{
+    z-index: 1;
+    height: 730px;
+    width: 1580px;
+    background-color: #dae0e2;
+    position: absolute;
+    left: 100px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.Notesdivmain-one{
+   height: auto;
+   width: auto;
+   position: fixed;
+}
+.Notesdivmain-page{
+    display: flex;
+}
+.Notesdivmain-page-left{
+    height: 900px;
+    width: 900px;
+    /* background-color: var(--white); */
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.notesheader-text{
+    position: relative;
+    top: 2%;
+    left: 5%;
+}
+.notesheader-text h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.notesheader-course{
+    position: relative;
+    top: 2%;
+    left: 5%;
+}
+.Notesdivmain-page-right{
+    height: 600px;
+    width: 600px;
+    border-radius: 25px;
+    margin-top: 100px;
+}
+.Notesdivmain-page-right >img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+}
+.notes-course-detail{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    left: 5%;
+    top: 3%;
+    text-decoration: none;
+}
+.notes-course-detail h1{
+    font-weight: 800;
+}
+
+.notes-course-detail-cse{
+    height: 60px;
+    width: 500px;
+    border-radius: 22px;
+    background-color: var(--white);
+    text-align: center;
+    text-transform: translate(-50% ,-50%);
+}
+.notes-course-detail-cse h2{
+    padding-top: 15px;
+}

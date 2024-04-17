@@ -1,0 +1,82 @@
+:root{
+    --blue:rgba(55, 21, 232, 0.899);
+    --white:#ffff;
+}
+
+.sidemainnav{
+  height: 900px;
+  width: 100px;
+background: -webkit-linear-gradient(45deg, #5c6ac4, #7b3cc1, #833ab4, #3685bf);
+-webkit-text-fill-color: transparent;
+  position: fixed;
+}
+.nav-button-log{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: relative;
+    top: 5%;
+    left: 2%;
+}
+.nav-button-log >img{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    object-fit: cover;
+}
+.insidemain{
+    display: flex;
+     flex-direction: column;
+     gap: 20px;
+     position: relative;
+     top: 20%;
+     left: -1%;
+     list-style: none;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+.navbutton1{
+    height: 60px;
+    width: 60px;
+    background-color: var(--white);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbutton2{
+    height: 55px;
+    width: 55px;
+    background-color: var(--white);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.navbutton3{
+    height: 55px;
+    width: 55px;
+    background-color: var(--white);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbutton4{
+    height: 55px;
+    width: 55px;
+    background-color: var(--white);
+    border-radius: 50%;
+    padding-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbutton5{
+    height: 55px;
+    width: 55px;
+    background-color: var(--white);
+    border-radius: 50%;
+}

@@ -1,0 +1,28 @@
+:root{
+    --blue:rgba(70, 21, 232, 0.899);
+    --white:#ffff;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.Uppernav-header{
+    height: 100px;
+    width: 2050px;
+    position: fixed;
+    background-color: var(--blue);
+    display: flex;
+    justify-content: space-around;
+}
+.Upper-nav-logo{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: var(--white);
+}
+.Upper-nav-login{
+    height: 80px;
+    width: 200px;
+    border-radius: 25px;
+    background-color: var(--white); 
+}
